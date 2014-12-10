@@ -13,7 +13,8 @@ Each kid's computer will need:
   * Although, for preference, vector drawing tools are nicer
 
 Then on the computer..:
-* Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-cyoa/archive/master.zip)
+* Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-cyoa/archive/master.zip).
+  * Alternatively, here's the more fun shortened linked: [http://bit.do/coderdojo-adventure](http://bit.do/coderdojo-adventure)
 * Unzip the project into a folder
 * In a web-browser, open start.html (in the unzipped project)
 * Get the kid to follow the instructions in start.html :-)
