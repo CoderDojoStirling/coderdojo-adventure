@@ -6,7 +6,11 @@ This is a CoderDojo lesson plan and materials. It's all about building a 'Choose
 
 Each kid's computer will need:
 * A text editor (for editing basic HTML files)
+  * On Windows, Notepad is just fine. Or try [Notepad++](http://notepad-plus-plus.org/download)
+  * On Mac, try [TextWrangler](http://www.barebones.com/products/textwrangler/download.html). Don't use TextEdit (you can't edit raw HTML with it)
 * A image editor (for creating basic images)
+  * On Windows, Paint is just fine.
+  * Although, for preference, vector drawing tools are nicer
 
 Then on the computer..:
 * Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-cyoa/archive/master.zip)
