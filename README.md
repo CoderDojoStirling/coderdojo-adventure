@@ -14,7 +14,7 @@ Each kid's computer will need:
 
 Then on the computer..:
 * Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-cyoa/archive/master.zip).
-  * Alternatively, here's the more fun shortened link: [http://bit.do/coderdojo-adventure](http://bit.do/coderdojo-adventure)
+  * Alternatively, here's the more fun shortened link: [http://tiny.cc/coderdojo-adventure](http://tiny.cc/coderdojo-adventure)
 * Unzip the project into a folder
 * In a web-browser, open start.html (in the unzipped project)
 * Get the kid to follow the instructions in start.html :-)
