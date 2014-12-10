@@ -3,10 +3,212 @@
     <title>CoderDojo - Learning</title>
 </head>
 <body>
-<h1>How to write this adventure</h1>
-<p>TODO</p>
+<h1>How to Keep Writing This Adventure</h1>
 
-<p>Back to the <a href="start.html">start</a></p>
+<p>This adventure is a number of web-pages linked together.</p>
 
+<p>To finish it, you'll need to change the existing web-pages and add some new ones.</p>
+
+<h2>What a Web-page is</h2>
+
+<p>A web-page is a special type of document. It's written in HTML: HyperText Markup Language.</p>
+
+<p>A web-page can contain different 'elements': like headings, paragraphs, images and links to other web-pages.</p>
+
+<p>You define what elements should appear in the web-page using HTML.</p>
+
+<p>When you open the web-page in your browser, the browser reads the page's HTML, and shows the defined elements.</p>
+
+<h2>Updating a web-page: Let's add another door</h2>
+
+<p>It's time to change a web-page in the adventure.</p>
+
+<p>Let's say you want to update the <a href="start.html">'start' web-page</a> of the adventure.</p>
+<p>We'll add another door that says 'Enter if you dare'.</p>
+
+<p>
+    First of all, you need to open the start web-page in a text editor:
+    <ol>
+        <li>Start a text editor</li>
+        <li>Now find the start.html file, and open it.</li>
+    </ol>
+</p>
+
+<h3>Web-page structure</h3>
+
+The web-page HTML looks something like this:
+
+<xmp>
+<html>
+<head>
+    <title>CoderDojo - Choose Your Own Adventure</title>
+</head>
+<body>
+    <h1>Choose Your Own Adventure</h1>
+    <h2>By Greg</h2>
+    <p>You are in a room.</p>
+    <p>In front of you are two doors. The left door says 'No Chickens Allowed' on it. The right door says 'Secret Tunnel'.</p>
+    <p>You decide to:
+        <ul>
+            <li><a href="no-chickens.html">Go through</a> the door marked 'No Chickens Allowed'</li>
+            <li><a href="secret-tunnel.html">Go through</a> the door marked 'Secret Tunnel'</li>
+        </ul>
+    </p>
+</body>
+</html>
+</xmp>
+
+<p>The HTML defines the different 'elements' that make up the page: like headers, paragraphs and links.<p>
+<p>Each 'element' is made up of a start 'tag' and an end 'tag', and some text in between.</p>
+<p>See this line? <xmp><p>You are in a room.</p></xmp></p>
+<p>This is HTML for 'paragraph' ('p' for paragraph). This tells the web-browser to display the text 'You are in a room' as a paragraph. So the browser shows this text with some empty space above and below it.</p>
+<p>Before we add our new 'Enter if you dare' door, let's look at the different HTML elements you can use in your adventure web-pages.</p>
+
+<h3>- Paragraph -</h3>
+
+<p>We've already talked about the 'paragraph' element, but to repeat ourself...</p>
+
+<p>Here's an example paragraph in HTML:
+<br/>
+    <xmp><p>'You are in a room.'</p></xmp>
+</p>
+
+<p>And here's what it looks like when loaded in the web-browser:
+<p>'You are in a room.'</p>
+</p>
+
+<h3>- Header -</h3>
+
+<p>A 'header' element is useful for chapter or section headings in your adventure.</p>
+
+<p>Here's an example header in HTML:
+    <br/>
+    <xmp><h1>Choose Your Own Adventure</h1></xmp>
+</p>
+
+<p>And here's what it looks like when loaded in the web-browser:
+    <h1>Choose Your Own Adventure</h1>
+</p>
+
+<p>There are different sizes of header: try h1, h2, h3, ...</p>
+
+<h3>- Lists -</h3>
+
+<p>The list element is useful for writing a list of choices in your adventure.<p>
+
+<p>Use the 'ul' element for that. It's a little bit different, because each thing in the list is also an element: called 'li' (for 'list item')</p>
+
+<p>Here's an example list in HTML:
+    <xmp>
+    <ul>
+        <li>Eat the rat</li>
+        <li>Throw the rat</li>
+    </ul>
+    </xmp>
+</p>
+
+<p>And here's what it looks like in the web-browser:
+<ul>
+    <li>Eat the rat</li>
+    <li>Throw the rat</li>
+</ul>
+</p>
+
+<h3>- Links -</h3>
+
+<p>So you want to link to another web-page?</p>
+
+<p>You'll need the 'a' element for that (no idea why it's called 'a')</p>
+
+<p>Here's an example link in HTML:
+    <br/>
+    <xmp><a href="secret-tunnel.html">Enter the secret tunnel</a></xmp>
+</p>
+
+<p>And here's what it looks like when loaded in the web-browser:
+    <br/><br/>
+    <a href="secret-tunnel.html">Enter the secret tunnel</a>
+</p>
+
+<h2>Challenge 1: Adding another door for real</h2>
+
+<p>Now we're ready to add another door saying 'Enter if you dare' on it:
+<ol>
+    <li>Make sure start.html is open in your text editor</li>
+    <li>Replace the paragraph starting 'In front of you are two doors with:<xmp>
+<p>In front of you are three doors.
+   The left door says 'No Chickens Allowed' on it.
+   The middle door says 'Secret Tunnel'.
+   The right door says 'Enter if you dare'</p></xmp></li>
+    <li>Replace the list of decisions with:
+        <xmp><ul>
+            <li><a href="no-chickens.html">Go through</a> the door marked 'No Chickens Allowed'</li>
+            <li><a href="secret-tunnel.html">Go through</a> the door marked 'Secret Tunnel'</li>
+            <li><a href="enter-if-you-dare.html">Go through</a> the door marked 'Enter if you dare'</li>
+        </ul></xmp>
+    </li>
+    <li>Save start.html, and reload it in your web browser.</li>
+</ol>
+
+<p>Great - you've added another door to the adventure!
+
+<h2>Challenge 2: Filling out the adventure</h2>
+
+<p>It's time to fill out the adventure.</p>
+<p>There are 4 existing web-pages that need changing to make them part of the adventure.</p>
+<p>Open each page in your text editor, and change it (like you just did with start.html):
+    <ul>
+        <li><a href="i-am-a-chicken.html">i-am-a-chicken.html</a> (got to from <a href="no-chickens.html">no-chickens.html)</a></li>
+        <li><a href="i-am-not-a-chicken.html">i-am-not-a-chicken.html</a> (got to from <a href="no-chickens.html">no-chickens.html)</a></li>
+        <li><a href="walk-and-hello.html">walk-and-hello.html</a> (got to from <a href="secret-tunnel.html">secret-tunnel.html)</a></li>
+        <li><a href="thrown-rat.html">thrown-rat.html</a> (got to from <a href="secret-tunnel.html">secret-tunnel.html)</a></li>
+</ul>
+</p>
+
+<p>In Challenge 1, you just linked to a page that doesn't exist yet: <a href="enter-if-you-dare.html">enter-if-you-dare.html</a>.</p>
+<p>You'll need to create that page too: the easiest way is to copy and paste an existing HTML file (like thrown-rat.html), and rename it to enter-if-you-dare.html</p>
+
+<p>You'll then need to change enter-if-you-dare.html to what you want: what's behind the 'Enter if you dare' door? A giant squid? A volcano?</p>
+
+<p>Spend as much time as you want in writing your adventure</p>
+
+<h2>Challenge 3: Adding pictures</h2>
+
+<p>Your adventure would probably look cooler if it had pictures.</p>
+
+<p>Go and add some.</p>
+
+<p>Use the 'img' element for that. It's a lot like the 'a' link element: but you're linking to a picture rather than another web-page.</p>
+
+<p>Here's an example image in HTML:
+    <xmp>
+        <img src="robot.png"></img>
+    </xmp>
+</p>
+
+<p>And here's what it looks like in the web-browser:
+<ul>
+    <img src="robot.png"></img>
+</ul>
+</p>
+
+<p>You can create and save new images here: <a href="http://drawisland.com/?w=400&h=400">http://drawisland.com/?w=400&h=400</a></p>
+
+<p>Or use a drawing editor on your computer to create something.</p>
+
+<p>Either way, save the image to the same folder as the adventure html pages, and then you can link to it using the 'img' element.</p>
+
+<h2>Challenge 4: Learn more about web-pages</h2>
+
+<p>We hope you had fun creating an adventure with simple web-pages.</p>
+
+<p>Now it's time to learn more.</p>
+
+<p>Try working through the two online courses about web-pages at Khan Academy
+    <ul>
+        <li><a href="https://www.khanacademy.org/computing/hour-of-code/hour-of-html/v/making-webpages-intro">Hour of Web-pages</a> (takes one hour, for age 8+)</li>
+        </li><a href="https://www.khanacademy.org/computing/computer-programming/html-css">HTML/CSS: Making webpages (a longer course)</a></li>
+    </ul>
+</p>
 </body>
 </html>
