@@ -29,7 +29,7 @@
 
 <p>You can then give the 'web address' of your adventure to your friends and family, and they can play your adventure!</p>
 
-<h3>An example adventure</h3>
+<h3>An Example Adventure</h3>
 
 <p>There's an example adventure already online for you to look at.</p>
 
@@ -45,15 +45,15 @@
 <p>First, make sure you have your adventure on your computer.</p>
 <p>Don't have it? Download a new copy from <a href="http://tiny.cc/coderdojo-adventure">http://tiny.cc/coderdojo-adventure</a></p>
 
-<p>Next, go to <a href="https://neocities.org">https://neocities.org</a> (when you can create a free website):
-    <ul>
-        <li>Sign up: give the name you want for your website, your email address and password.</li>
+<p>Next, go to <a href="https://neocities.org">https://neocities.org</a> (where you can create a free website):
+    <ol>
+        <li>Sign up: give the name you want for your website, your email address and new password.</li>
         <li>Choose the 'Free' option</li>
         <li>Click on the red 'Edit Site' button</li>
         <li>Click on the 'New Folder' button, and create one called 'coderdojo-adventure'</li>
         <li>Click on the 'coderdojo-adventure' folder, on the 'Manage' link</li>
-        <li>Click on the 'Upload' button, and select all the adventure files from your computer (webpages and images)</li>
-    </ul>
+        <li>Click on the 'Upload' button, and select all the adventure files from your computer (all the webpages and images in the coderdojo-adventure-master folder)</li>
+    </ol>
 </p>
 
 <p>If everything went to plan, your adventure is now on the Internet!</p>
@@ -92,11 +92,63 @@
     </ul>
 </p>
 
-<p>Let's add some </p>
+<p>Let's add some special effects to your adventure with Javascript.</p>
+
+<p>We'll add some snow: we'll download some Javascript 'snow effects' code and use it in your adventure.</p>
+
+<p>We'll do this first on your computer, not on the Neocities website online.</p>
+
+<ol>
+    <li>In your web browser, access the Javascript 'snow effects' code by opening: <a href="http://tiny.cc/coderdojo-adventure-snow">http://tiny.cc/coderdojo-adventure-snow</a></li>
+    <li>Save this code (called snowstorm.js) to the adventure folder on your computer (the folder called coderdojo-adventure-master).</li>
+    <li>In a text editor (like SublimeText), open the adventure web-page where you want the snow effect (like start.html).</li>
+    <li>The webpage should have html that looks like:
+        <xmp>
+            <html>
+            <head>
+                <title>CoderDojo - Choose Your Own Adventure</title>
+            </head>
+            <body>
+            <h1>Choose Your Own Adventure</h1>
+            ....
+            </body>
+            </html>
+        </xmp>
+        In the 'head' section, add the line (and save!):
+        <xmp>
+            <script src="snowstorm.js"></script>
+        </xmp>
+        This loads the Javascript snow effects code into your webpage.
+    </li>
+    <li>In your web browser, open the adventure web-page you just changed. You should see snow! No snow? Ask a mentor for help.</li>
+</ol>
+
+You can change the snow effect if you want. Just add the following Javascript in the 'head' section, below the 'snowstorm.js' line:
+<xmp>
+<script>
+    snowStorm.snowColor = '#FF3300';   //red snow!? (get other color codes at: http://www.w3schools.com/tags/ref_colorpicker.asp)
+    snowStorm.followMouse = false;     //(true or false) snow movement can respond to the user's mouse
+    snowStorm.snowStick = false;       //(true or false) should snow "stick" at the bottom. When off, will never collect.
+</script>
+</xmp>
+
+If you want to add snow to your website online at Neocities, then re-upload the webpage you changed. Don't forget to upload snowstorm.js too.
 
 <h2>Learning More Javascript with CodeCombat</h2>
 
-<p>TODO</p>
+<p>If you took a look at the Javascript snow effects code in snowstorm.js, it might look a bit complicated.</p>
+
+<p>But it's not complicated if you know more Javascript.</p>
+
+<p>And once you know more Javascript, we can create more cool stuff like games.</p>
+
+<p>If you want to learn more Javascript, there's a really cool website called: <a href="http://codecombat.com/">http://codecombat.com</a>.</p>
+
+<p>You get to learn to code whilst playing someone else's adventure.</p>
+
+<p>So go take a look at <a href="http://codecombat.com/">http://codecombat.com</a>. Remember to select Javascript as the language to learn.</p>
+
+<p>Have fun!</p>
 
 </body>
 </html>
