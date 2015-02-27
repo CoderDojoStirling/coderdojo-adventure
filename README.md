@@ -17,11 +17,12 @@ Each kid's computer will need:
   * Although, for preference, vector drawing tools are nicer
 
 For the first lesson (on their computer..):
-* Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-adventure/archive/master.zip).
-  * Alternatively, here's the more fun shortened link: [http://tiny.cc/coderdojo-adventure](http://tiny.cc/coderdojo-adventure)
-* Unzip the project into a folder (the default name is likely 'coderdojo-adventure-master)
-* In a web-browser, open start.html (in the folder)
-* Get the kid to follow the instructions in start.html :-)
+* Follow the instructions in setup.html, which are:
+  * Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-adventure/archive/master.zip).
+    * Alternatively, here's the more fun shortened link: [http://tiny.cc/coderdojo-adventure](http://tiny.cc/coderdojo-adventure)
+  * Unzip the project into a folder (the default name is likely 'coderdojo-adventure-master')
+  * In a web-browser, open start.html (in the folder)
+  * Get the kid to follow the instructions in start.html :-)
 * At various points, you might need to help them with:
   * Opening an (existing) html file in the text editor, and editing it.
   * Creating a new html file and editing it (copy n paste the existing new-webpage.html file).
