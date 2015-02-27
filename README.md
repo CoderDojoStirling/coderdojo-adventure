@@ -5,7 +5,7 @@ This is a CoderDojo lesson plan and materials. It's all about building a 'Choose
 ## Setup
 
 Each kid's computer will need:
-* A text editor (for editing basic HTML files). Try [Sublime Text 2](http://www.sublimetext.com/2)
+* A text editor (for editing basic HTML files). Try [Sublime Text 3](http://www.sublimetext.com/3)
   * As a fallback on Windows, try Notepad.
 * A image editor (for creating basic images)
   * On Windows, Paint is just fine.
@@ -27,5 +27,5 @@ A printable html of the kids' instructions is in setup.html.
 That's it!
 
 Two suggestions for you as a CoderDojo mentor:
-* Run through the lesson yourself to get a feel for what's involved.
+* Run through the lessons yourself to get a feel for what's involved.
 * Open learn.html in a web-browser, and print a bunch of copies for all the kids attending. This is not strictly necessary (as the kids can read the page in their browsers), but should simplify matters as they have a paper copy of the instructions to refer to.
