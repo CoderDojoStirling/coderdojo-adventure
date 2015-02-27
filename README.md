@@ -1,6 +1,11 @@
 # Choose Your Own Adventure lesson plan
 
-This is a CoderDojo lesson plan and materials. It's all about building a 'Choose Your Own Adventure' using basic web-pages. Hopefully the kids will then be motivated to learn more about HTML/CSS. There are some follow-on Khan Academy courses suggested at the end.
+This is a CoderDojo lesson plan and materials. It's all about building a 'Choose Your Own Adventure' using basic web-pages. Hopefully the kids will be motivated to learn more about HTML/CSS/Javascript.
+
+There are 3 lessons. Print out the following files for each lesson, and give them to the kids:
+* Lesson one: setup.html and learn.html
+* Lesson two: learn-2.html
+* Lesson three: learn-3.html
 
 ## Setup
 
@@ -11,21 +16,17 @@ Each kid's computer will need:
   * On Windows, Paint is just fine.
   * Although, for preference, vector drawing tools are nicer
 
-Then on the computer..:
+For the first lesson (on their computer..):
 * Download this (zipped) project from [here](https://github.com/greghuc/coderdojo-adventure/archive/master.zip).
   * Alternatively, here's the more fun shortened link: [http://tiny.cc/coderdojo-adventure](http://tiny.cc/coderdojo-adventure)
-* Unzip the project into a folder
-* In a web-browser, open start.html (in the unzipped project)
+* Unzip the project into a folder (the default name is likely 'coderdojo-adventure-master)
+* In a web-browser, open start.html (in the folder)
 * Get the kid to follow the instructions in start.html :-)
 * At various points, you might need to help them with:
   * Opening an (existing) html file in the text editor, and editing it.
-  * Creating a new html file and editing it (copy n paste an existing file).
+  * Creating a new html file and editing it (copy n paste the existing new-webpage.html file).
   * Creating a new image in the image editor, and saving it to the project folder.
 
-A printable html of the kids' instructions is in setup.html.
+That's it! Lessons two and three follow on from lesson (which did all the setup).
 
-That's it!
-
-Two suggestions for you as a CoderDojo mentor:
-* Run through the lessons yourself to get a feel for what's involved.
-* Open learn.html in a web-browser, and print a bunch of copies for all the kids attending. This is not strictly necessary (as the kids can read the page in their browsers), but should simplify matters as they have a paper copy of the instructions to refer to.
+As a CoderDojo mentor it's best to run through the lessons yourself to get a feel for what's involved.
